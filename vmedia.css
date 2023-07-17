@@ -28,7 +28,7 @@
    }
 
    .search {
-    width: 70%;
+    width: auto;
    }
    .search input{
     width: auto;
