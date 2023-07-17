@@ -6,43 +6,42 @@
     }
     
    /* -------header-------- */
- header{
-        width: auto;
-        height: auto;
-    }
-    .menu{
-        display: none;
-    }
-    .left .logo{
+ 
+   header{
+    width: auto;
+    height: auto;
+}
+.menu{
+    display: none;
+}
+.left .logo{
 width: 70px;
-    }
-    
-    .center .search{
-        width: 60%;
-       
-    }
+}
 
-    .search input{
-        font-size: 14px;
-        padding: 0;
-    }
+.center .search{
+    width: 60%;
+    padding: 2px;
+}
 
-    .center img{
-        display: none;
-    }
+.search input{
+    font-size: 14px;
+}
 
-    .right img{
-        display: none;
-    }
+.center img{
+    display: none;
+}
 
-    .right .u-login{
-        display: block;
-    }
+.right img{
+    display: none;
+}
 
-   .right  .u-login {
-        width: 30px;
-    }
+.right .u-login{
+    display: block;
+}
 
+.right  .u-login {
+    width: 30px;
+}
    /* --------hero-Container------ */
 
    .hero-container{
