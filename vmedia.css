@@ -6,39 +6,41 @@
     }
     
    /* -------header-------- */
-
    header{
-   width: auto;
-   }
-
-
-   .left .menu{
+    width: auto;
+    height: auto;
+}
+.menu{
     display: none;
-   }
+}
+.left .logo{
+width: 70px;
+}
 
-   .left .logo{
-    width: 70px;
-   }
-
-   .center img{
-    display: none;
-   }
-
-   .search {
+.center .search{
     width: 60%;
     padding: 2px;
-   }
-   .search input{
+}
+
+.search input{
     font-size: 14px;
-   }
+}
 
-   .right img{
+.center img{
     display: none;
-   }
+}
 
-   .right .u-login{
+.right img{
+    display: none;
+}
+
+.right .u-login{
     display: block;
-   }
+}
+
+.right  .u-login {
+    width: 30px;
+}
 
    /* --------hero-Container------ */
 
