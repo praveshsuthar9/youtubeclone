@@ -1,0 +1,87 @@
+
+@media screen and (max-width:479px) {
+    .container{
+        width: auto;
+        padding: 0 2%;
+    }
+    
+   /* -------header-------- */
+
+   header{
+   width: auto;
+   }
+
+   .left img{
+    width: 18px;
+   }
+
+   .left .menu{
+    display: none;
+   }
+
+   .left .logo{
+    width: 100px;
+   }
+
+   .center img{
+    display: none;
+   }
+
+   .search {
+    width: 70%;
+   }
+   .search input{
+    width: auto;
+    font-size: 14px;
+   }
+
+   .right img{
+    display: none;
+   }
+
+   .right .u-login{
+    display: block;
+   }
+
+   /* --------hero-Container------ */
+
+   .hero-container{
+    display: block;
+   }
+
+   .large-container{
+    width: auto;
+   }
+   /* .large-container p{
+    font-size: 40px;
+   } */
+   .play-video{
+    width: auto;
+   }
+
+   .video-views{
+    display: block;
+   
+   }
+
+   .share{
+    justify-content: flex-start;
+    padding-top: 10px;
+
+   }
+
+/* -------small-container----- */
+
+   .small-container{
+    width: auto;
+   }
+
+   .video-cont{
+    display: block;
+    margin-top: 15px;
+   }
+
+   .btn button{
+    display: none;
+   }
+}

@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+img{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+header{
+    width: 100%;
+    height: 72px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.flex-box{
+    display: flex;
+    align-items: center;
+   
+}
+
+.header-container{
+    background-color: #fff;
+    padding: 8px 2px;
+    justify-content: space-between;
+    box-shadow: 3px 4px 6px #ccc;
+}
+
+
+
+.left img{
+width: 25px;
+margin-right: 15px;
+}
+
+.left .logo{
+    width: 200px;
+}
+
+.right img{
+    width: 25px;
+    margin-right: 15px;
+}
+
+.right .u-login{
+    width: 35px;
+    border-radius: 30px;
+}
+
+.center img{
+    width: 25px;
+    
+  
+}
+
+.search {
+    width: 85%;
+    border: 1px solid gray;
+    padding: 3px 8px;
+    border-radius: 30px;
+    margin-right: 15px;
+}
+
+.search input{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 5px ;
+}
+
+.search img{
+    width: 20px;
+}
+.hero-container{
+    display: flex;
+    gap: 10px;
+}
+
+.large-container{
+    width: 70%;
+    padding-top: 6px;
+}
+
+.play-video video{
+    width: 100%;
+   
+}
+
+.tags{
+    padding-top: 15px;
+}
+
+.tags a{
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.large-container p{
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.video-views{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.video-views a {
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+}
+
+.share{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.share a{
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.share a img{
+    width: 20px;
+  margin-right: 5px;
+}
+
+hr{
+    margin: 20px 0;
+}
+.channel-info{
+    display: flex;
+   
+    justify-content: space-between;
+}
+
+.channel{
+    display: flex;
+ 
+    gap: 15px;
+}
+
+
+.channel-image img{
+    width: 35px;
+    border-radius: 50%;
+}
+
+.channel-content h6{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.channel-content small{
+    padding-top: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+}
+
+.channel-content p{
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: gray;
+}
+
+.channel-info hr{
+    width: 100%;
+}
+
+
+.btn button{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: tomato;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s linear;
+
+}
+
+.btn button:hover{
+    background-color: transparent;
+    color: tomato;
+    border: 1px solid tomato;
+}
+
+.channel-comment-container h6{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.comment-cont {
+    padding-top: 30px   ;
+    display: flex;
+    gap: 15px;
+}
+
+
+
+.comment-image img{
+    width: 35px;
+    border-radius: 30px;
+}
+
+.comment-content input{
+ 
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    padding: 5px;
+    border: none;
+    border-bottom:1px solid #ccc ;
+   outline: none;
+   
+}
+
+.comment-content h6{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.comment-cont h6 span{
+    color: gray;
+}
+
+.comment-links{
+    padding-top: 10px;
+    display: flex;
+   
+
+}
+
+.comment-links p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.comment-links a{
+    display: inline-flex;
+    align-items: center;
+ 
+font-size: 14px;
+font-weight: 400;
+color: gray;
+margin-right: 15px;
+}
+
+.comment-links a img{
+    width: 15px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.small-container{
+    width: 30%;
+}
+
+.video-cont{
+display: flex;
+flex-wrap: nowrap;
+gap: 10px;
+padding-top: 6px;
+}
+
+.video img{
+    width: 100%;
+}
+
+.video-content h6{
+   font-size: 18px;
+   font-weight: bold;
+}
+
+.video-content p{
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
